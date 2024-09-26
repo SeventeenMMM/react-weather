@@ -32,7 +32,7 @@ const Main:React.FC = () => {
     <>
         { 
             weatherInfo && <main className="main">
-                <h2 className="main-title">На неделю</h2>
+                <h2 className="main-title">На Неделю</h2>
                 <div className="main__content">
                     {daily.map((day:currentDaily, idx:number) => (
                         <div className="main__content-day" key={idx}>
